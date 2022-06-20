@@ -1,0 +1,60 @@
+.addTask {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #ffffff0a;
+    width: 100%;
+    margin-top: 10px;
+    padding: 25px 0 0;
+}
+
+.formWrite {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.formWrite input {
+    background: transparent;
+    display: block;
+    border: 0.1px solid #ffffff0a;
+    height: 65px !important;
+    width: 100% !important;
+    outline: none;
+    appearance: none;
+    resize: none;
+    color: #bdbdbd;
+    font-size: calc(16px + 0.5vmin);
+    padding: 18px 35px;
+    overflow: hidden;
+    transition: all 0.8s ease-in-out;
+    cursor: default;
+}
+
+.formWrite input:focus {
+    -webkit-box-shadow: 1px 1px 40px -10px rgb(220 220 220 / 10%);
+    box-shadow: 1px 1px 40px -10px rgb(220 220 220 / 10%);
+}
+
+.btnSubm {
+    background-color: #ffffff0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 65px;
+    width: 145px;
+    font-size: calc(16px + 0.5vmin);
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+}
+
+.btnSubm:hover {
+    background-color: #1B1E1F;
+    -webkit-box-shadow: 1px 1px 40px -10px rgb(220 220 220 / 10%);
+    box-shadow: 1px 1px 40px -10px rgb(220 220 220 / 10%);
+}
